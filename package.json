@@ -1,0 +1,32 @@
+{
+  "name": "smartstudy-ai",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "vite preview --host 0.0.0.0 --port 3000"
+  },
+  "dependencies": {
+    "framer-motion": "^12.38.0",
+    "jspdf": "^4.2.1",
+    "katex": "^0.16.45",
+    "lucide-react": "^1.14.0",
+    "mammoth": "^1.8.0",
+    "pdfjs-dist": "^4.9.155",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-pdf": "^9.2.1",
+    "recharts": "^3.8.1",
+    "tesseract.js": "^7.0.0",
+    "youtube-transcript": "^1.3.1",
+    "youtube-transcript-api": "^3.0.6"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^6.3.5"
+  }
+}
