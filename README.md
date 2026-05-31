@@ -80,19 +80,25 @@ The platform combines productivity tools, AI tutoring, and personalized learning
 
 ## Landing Page
 
-![Landing](landing-page-full.png)
+![Landing Page](screenshots/landing.png)
+
+---
+
+## User Registration
+
+![Register](screenshots/Register.png)
+
+---
 
 ## Dashboard
 
-![Dashboard](03-dashboard.png)
+![Dashboard](screenshots/dashboard.png)
 
-## Study Planner
-
-![Planner](study-planner-page.png)
+---
 
 ## Study Tools
 
-![Tools](study-tools-page.png)
+![Study Tools](screenshots/study-tools-page.png)
 
 ---
 
