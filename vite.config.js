@@ -3,7 +3,10 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd(), '');
+
   return {
+    base: '/AI-Study-Assistant/',
+
     plugins: [
       react(),
       {
@@ -16,6 +19,7 @@ export default defineConfig(({ mode }) => {
         },
       },
     ],
+
     build: {
       rollupOptions: {
         output: {
@@ -25,7 +29,17 @@ export default defineConfig(({ mode }) => {
         },
       },
     },
-    server: { host: '0.0.0.0', port: 3000, headers: { 'Cache-Control': 'no-store' } },
-    preview: { host: '0.0.0.0', port: 3000, headers: { 'Cache-Control': 'no-store' } },
+
+    server: {
+      host: '0.0.0.0',
+      port: 3000,
+      headers: { 'Cache-Control': 'no-store' }
+    },
+
+    preview: {
+      host: '0.0.0.0',
+      port: 3000,
+      headers: { 'Cache-Control': 'no-store' }
+    },
   };
 });
